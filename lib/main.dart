@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kl06/UI/Registration.dart';
 import 'package:kl06/UI/selreg.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         
         primarySwatch: Colors.blue,
       ),
-      home: const selre(),
+      home: const Registration(),
     );
   }
 }
