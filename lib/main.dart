@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:kl06/UI/selreg.dart';
+import 'package:kl06/UI/loginpage.dart';
+// import 'package:kl06/UI/selreg.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         
         primarySwatch: Colors.blue,
       ),
-      home: const selre(),
+      home: const Loginuser(),
     );
   }
 }
